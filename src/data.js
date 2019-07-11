@@ -181,19 +181,19 @@ export default [
     },
     {
         name: '135 M',
-        image: 'http://p9mxikfa7.bkt.clouddn.com/135m.png',
+        image: 'https://p1.cug123.com/nomo/135m.png',
         desc: '灵感源自奥林巴斯 mju-ii 相机，柯达胶片色彩，35 毫米广角镜头',
         id: '2'
     },
     {
         name: '135 B',
-        image: 'http://p9mxikfa7.bkt.clouddn.com/135b.png',
+        image: 'http://p1.cug123.com/nomo/135b.png',
         desc: '灵感源自 Lomography LC-A 相机，随机漏光效果',
         id: '0'
     },
     {
         name: 'INS W',
-        image: 'http://p9mxikfa7.bkt.clouddn.com/camera-insw.png',
+        image: 'https://p1.cug123.com/nomo/camera-insw.png',
         desc: '灵感源自富士 instax mini 25 相机，带有相纸边框',
         id: '1'
     }
