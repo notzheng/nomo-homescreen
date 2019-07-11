@@ -15,10 +15,10 @@ class Jump extends React.Component {
         // 从 URL 参数里获得各种设置
         let params = new URLSearchParams(props.location.search);
         this.item = camerasList[params.get('idx')];
-        this.isLeather = params.get('leather') === '1';
+        this.isLeather = !params.get('leather') || params.get('leather') === '1';
         this.background = params.get('background');
-        this.showStartUpImage = params.get('show_startup_image') === '1';
-        this.startUpImageType = params.get('startup_image_type');
+        this.showStartUpImage = !params.get('show_startup_image') && params.get('show_startup_image') === '1';
+        this.startUpImageType = params.get('startup_image_type') || 'origin';
         this.action();
     }
 
