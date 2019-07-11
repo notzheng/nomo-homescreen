@@ -17,7 +17,7 @@ class Jump extends React.Component {
         this.item = camerasList[params.get('idx')];
         this.isLeather = !params.get('leather') || params.get('leather') === '1';
         this.background = params.get('background');
-        this.showStartUpImage = !params.get('show_startup_image') && params.get('show_startup_image') === '1';
+        this.showStartUpImage = !params.get('show_startup_image') || params.get('show_startup_image') === '1';
         this.startUpImageType = params.get('startup_image_type') || 'origin';
         this.action();
     }
