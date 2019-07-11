@@ -89,7 +89,7 @@ class Settings extends React.Component {
                   <span style={{ marginRight: '5px' }}> # </span> <input type="text" value={this.props.settings.color} onChange={this.handleChange} autoCapitalize="on" pattern="([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" placeholder="请输入十六进制颜色" name="color-input" />
                 </div>
               </li>
-          <li>·
+          <li>
             <div className="label">
               显示启动画面
           </div>
