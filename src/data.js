@@ -87,12 +87,6 @@ export default [
         id: '23'
     },
     {
-        name: '2007',
-        image: 'https://nomo-cdn-ec.dafork.com/FpjuhZF0yP6zhVUXJy5nKKFQVSAK',
-        desc: '受初代 iPhone 的启发，我们为您带回了 2007 年最好的手机摄像头。原汁原味的噪点、颜色、画质和动态范围。2019 年愚人节快乐！',
-        id: '23'
-    },
-    {
         name: 'TOY IR 红外机',
         image: 'https://nomo-cdn-ec.dafork.com/FrlY5Cm9Tsrvx2IUy_nU6OW8Gndr',
         desc: '这是一台色彩诡异的相机。我们的设计灵感来自《红外纽约》摄影项目，并参考了 ' +
