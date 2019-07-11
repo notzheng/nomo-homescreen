@@ -175,7 +175,7 @@ export default [
     },
     {
         name: 'INS 2',
-        image: 'http://p9mxikfa7.bkt.clouddn.com/camera-ins2.png',
+        image: 'https://p1.cug123.com/nomo/camera-ins2.png',
         desc: '灵感源自宝丽来 OneStep 2 相机，模拟了经典宝丽来相纸的色彩，带有相纸边框',
         id: '3'
     },
@@ -187,7 +187,7 @@ export default [
     },
     {
         name: '135 B',
-        image: 'http://p1.cug123.com/nomo/135b.png',
+        image: 'https://p1.cug123.com/nomo/135b.png',
         desc: '灵感源自 Lomography LC-A 相机，随机漏光效果',
         id: '0'
     },
