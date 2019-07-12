@@ -24,8 +24,8 @@ const generateStartUpImage = (icon) => {
     const ctx = canvas.getContext('2d');
     ctx.fillStyle = '#000';
     ctx.fillRect(0, 0, canvasWidth, canvasHeight);
-    let iconSize = 300;
-    ctx.drawImage(icon, (canvasWidth - iconSize) / 2, (canvasHeight - iconSize) / 2, 300, 300);
+    let iconSize = canvasWidth / 4;
+    ctx.drawImage(icon, (canvasWidth - iconSize) / 2, (canvasHeight - iconSize) / 2, iconSize, iconSize);
 
     return {
         image: canvas.toDataURL(),
@@ -83,11 +83,10 @@ const generateHTML = (info) => {
     <meta charset="UTF-8">
     <title>${ info.name}</title>
     ${startupImagesString}
-    <meta content="yes" name="apple-touch-fullscreen">
     <meta content="yes" name="apple-mobile-web-app-capable">
-    <meta content="${info.showStartUpImage ? 'black' : 'white'}" name="apple-mobile-web-app-status-bar-style">
+    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
-    <link id="apple-icon" sizes="256x256" rel="apple-touch-icon">
+    <link id="apple-icon" rel="apple-touch-icon">
 </head>
 <script>
     document.documentElement.style.fontSize = 100 * document.documentElement.clientWidth / 375 + "px";
