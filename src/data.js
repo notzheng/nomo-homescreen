@@ -1,5 +1,11 @@
 export default [
     {
+        name: 'MOON',
+        image: 'https://nomo-cdn-ec.dafork.com/Fp6O5y3hLheWmTTQ15KWclPIEW3k',
+        desc: '为庆祝登月 50 周年纪念日，NOMO 推出这台特别相机：MOON。这台相机的灵感来源是哈苏 Data Camera 和哈苏 500 EL/M 「走向太空 20 年」纪念版。',
+        id: '29'
+    },
+    {
         name: '135 Zoom',
         image: 'https://nomo-cdn-ec.dafork.com/FrESpx5g-YCnECtiZFUQ4oHrZjbj',
         desc: '变焦。全景模式。5 种英文祝福语。日语自动日期标。灵感源自佳能 Autoboy Luna 相机。',
