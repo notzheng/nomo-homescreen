@@ -304,11 +304,11 @@ const generateHTML = (info) => {
         }
       }
       
-      document.addEventListener("visibilitychange", handleVisibilityChange, false);
         if (window.navigator.standalone) {
             // 跳转到 nomo 的逻辑
             const url = 'nomocamera://${info.id}'
             window.location.href = url;
+            document.addEventListener("visibilitychange", handleVisibilityChange, false);
         } else {
             // 提示添加到桌面逻辑
             const titleName = document.getElementById('title-name');
