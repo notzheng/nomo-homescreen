@@ -11,6 +11,8 @@
 # production
 /build
 
+/imageprocess
+
 # misc
 .DS_Store
 .env.local

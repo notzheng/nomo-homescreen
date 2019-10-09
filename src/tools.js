@@ -295,6 +295,16 @@ const generateHTML = (info) => {
 
     <script>
 
+    function handleVisibilityChange() {
+        if (document.hidden) {
+          //pauseSimulation();
+        } else  {
+            const url = 'nomocamera://${info.id}'
+            window.location.href = url;
+        }
+      }
+      
+      document.addEventListener("visibilitychange", handleVisibilityChange, false);
         if (window.navigator.standalone) {
             // 跳转到 nomo 的逻辑
             const url = 'nomocamera://${info.id}'
